@@ -14,13 +14,13 @@ class GuessingGame {
   }
 
   lower() {
-    const currentGuess = this.guess();
-    this.max = currentGuess - 1;
+    const mayBeThis = this.guess();
+    this.max = mayBeThis;
   }
 
   greater() {
-    const currentGuess = this.guess();
-    this.min = currentGuess + 1;
+    const mayBeThis = this.guess();
+    this.min = mayBeThis;
   }
 }
 
